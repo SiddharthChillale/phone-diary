@@ -1,0 +1,98 @@
+/* a{
+    color: rgba(34, 34, 34, 0.733);
+    text-decoration: none;
+    cursor: pointer ;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+} */
+
+body{
+    background-image: url('interlaced.png');
+}
+
+body.dark {
+    background-image: url('memphis-mini-dark.png');
+    color: #fff;
+  }
+
+  body.dark code[class*=language-],
+  body.dark table tbody>tr:nth-child(odd)>td,
+  body.dark table tbody>tr:nth-child(odd)>th {
+    background: #282c34;
+  }
+  
+.pointer{
+    cursor: pointer ;
+}
+
+
+
+
+.grid-container{
+    display: grid;
+    margin: auto ;
+    grid-template-columns: 1fr 3fr ;
+    grid-gap: 10px ;
+    width :1000px ;
+    margin-top: 20px ;
+}
+
+
+
+.aux{
+    border: 1px red solid ;
+}
+.display-flex{    
+    display: flex;
+    flex-flow: column ;
+}
+
+.person{
+    padding: 10px ;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between ;
+}
+.summary-panel{
+    padding: 20px ;
+    box-sizing: border-box ;
+    border-radius: 4px ;
+    border: 1px solid rgba(132, 132, 132, 0.4); 
+    background-color: white ;
+}
+.summary-panel.dark{
+    background-color: rgba(66, 65, 65, 0.856);
+    color: white ; 
+    border: 1px solid rgba(255, 255, 255, 0.4); 
+
+}
+
+.font-change-rock{
+    font-family: 'Special Elite', cursive;
+}
+.font-change-indie{
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.nav-bar{
+    display: flex ;
+}
+
+nav a:hover, nav a:active {
+    background-color: rgba(48, 96, 253, 0.822);
+    color: white ;
+    border-radius: 4px ;
+}
+.details-view{
+    box-sizing: border-box ;
+
+}
+
+
+
+
+
